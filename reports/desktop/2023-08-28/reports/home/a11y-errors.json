@@ -1,0 +1,351 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-141-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,5,DIV,0,DIV,0,DIV",
+            "selector": "div > div > div.paragraph > div.jumbo_image",
+            "boundingRect": {
+              "top": 2772,
+              "bottom": 3047,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 275
+            },
+            "snippet": "<div class=\"jumbo_image\" style=\"background-image: url(&quot;/sites/cdec/files/styles/flexslider_full/public/Hero…&quot;);\" aria-label=\"Three images of infant through preschhool children.  First with two babies…\">",
+            "nodeLabel": " \n\n \n\n \n\n \n\n \n\n ",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-142-BUTTON",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,0,BUTTON",
+            "selector": "div.view-content > div#slick-views-jumbo-sliders-block-1-2 > nav.slick__arrow > button.slick-prev",
+            "boundingRect": {
+              "top": 758,
+              "bottom": 764,
+              "left": 0,
+              "right": 16,
+              "width": 16,
+              "height": 6
+            },
+            "snippet": "<button type=\"button\" data-role=\"none\" class=\"slick-prev\" aria-label=\"\" tabindex=\"0\">",
+            "nodeLabel": "div.view-content > div#slick-views-jumbo-sliders-block-1-2 > nav.slick__arrow > button.slick-prev",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-143-BUTTON",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,BUTTON",
+            "selector": "div.view-content > div#slick-views-jumbo-sliders-block-1-2 > nav.slick__arrow > button.slick-next",
+            "boundingRect": {
+              "top": 782,
+              "bottom": 788,
+              "left": 0,
+              "right": 16,
+              "width": 16,
+              "height": 6
+            },
+            "snippet": "<button type=\"button\" data-role=\"none\" class=\"slick-next\" aria-label=\"\" tabindex=\"0\">",
+            "nodeLabel": "div.view-content > div#slick-views-jumbo-sliders-block-1-2 > nav.slick__arrow > button.slick-next",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-144-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,1,B,0,A,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN",
+            "selector": "span > span > span > span",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 37,
+              "left": 641,
+              "right": 754,
+              "width": 112,
+              "height": 17
+            },
+            "snippet": "<span style=\"text-decoration-skip-ink:none\">",
+            "nodeLabel": "family application",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #1155cc, background color: #8fc6e8, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "19-145-SECTION",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div.region > section#block-views-block-alert-bar-block-1",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 56,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 56
+                  },
+                  "snippet": "<section class=\"views-element-container block block-views block-views-blockalert-bar-block…\" id=\"block-views-block-alert-bar-block-1\">",
+                  "nodeLabel": "The Universal Preschool (UPK) Colorado family application portal is open! Get m…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-146-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,3,A,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN",
+            "selector": "span > span > span > span",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 37,
+              "left": 947,
+              "right": 976,
+              "width": 29,
+              "height": 17
+            },
+            "snippet": "<span style=\"text-decoration-skip-ink:none\">",
+            "nodeLabel": "here",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #1155cc, background color: #8fc6e8, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "19-145-SECTION",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div.region > section#block-views-block-alert-bar-block-1",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 56,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 56
+                  },
+                  "snippet": "<section class=\"views-element-container block block-views block-views-blockalert-bar-block…\" id=\"block-views-block-alert-bar-block-1\">",
+                  "nodeLabel": "The Universal Preschool (UPK) Colorado family application portal is open! Get m…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-147-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 1704,
+              "bottom": 2304,
+              "left": 24,
+              "right": 624,
+              "width": 600,
+              "height": 600
+            },
+            "snippet": "<iframe frameborder=\"0\" height=\"600\" scrolling=\"no\" src=\"https://calendar.google.com/calendar/embed?src=cdec_communications%40state…\" style=\"border: 0\" width=\"600\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "19-148-H3",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 959,
+              "bottom": 1009,
+              "left": 690,
+              "right": 1335,
+              "width": 645,
+              "height": 51
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "Stay Connected with CDEC",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

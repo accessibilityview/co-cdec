@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/",
+    "score": 0.87
+  },
+  {
+    "path": "/about-us",
+    "score": 0.93
+  },
+  {
+    "path": "/accessibility-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/background-checks",
+    "score": 0.93
+  },
+  {
+    "path": "/boards-commissions-and-committees",
+    "score": 0.9
+  },
+  {
+    "path": "/calendar",
+    "score": 0.93
+  },
+  {
+    "path": "/cdec-newsletter-archive",
+    "score": 0.95
+  },
+  {
+    "path": "/child-care-covid-19-resources",
+    "score": 0.93
+  },
+  {
+    "path": "/child-care-licensing-and-administration",
+    "score": 0.93
+  },
+  {
+    "path": "/colorado-child-care-assistance-program-cccap-administration",
+    "score": 0.9
+  },
+  {
+    "path": "/colorado-child-care-assistance-program-for-families",
+    "score": 0.9
+  },
+  {
+    "path": "/colorado-child-care-assistance-program-for-providers",
+    "score": 0.93
+  },
+  {
+    "path": "/colorado-universal-preschool/factores-de-calificacion",
+    "score": 0.89
+  },
+  {
+    "path": "/consulta-sobre-la-salud-mental-en-la-primera-infancia",
+    "score": 0.95
+  },
+  {
+    "path": "/contact-us",
+    "score": 0.93
+  },
+  {
+    "path": "/contacts/cassandra-p-johnson",
+    "score": 0.96
+  },
+  {
+    "path": "/contacts/karina-sofia-garcia-sastre",
+    "score": 0.93
+  },
+  {
+    "path": "/contacts/megan-burch",
+    "score": 0.93
+  },
+  {
+    "path": "/contacts/scott-bright",
+    "score": 0.93
+  },
+  {
+    "path": "/contacts/t-vail-shoultz-mccole",
+    "score": 0.95
+  },
+  {
+    "path": "/county-departments-of-human/social-services",
+    "score": 0.93
+  },
+  {
+    "path": "/department-of-early-childhood-mission-and-vision",
+    "score": 0.95
+  },
+  {
+    "path": "/early-childhood-councils",
+    "score": 0.89
+  },
+  {
+    "path": "/early-childhood-educator-income-tax-credit",
+    "score": 0.91
+  },
+  {
+    "path": "/early-childhood-mental-health-consultation",
+    "score": 0.91
+  },
+  {
+    "path": "/early-childhood-teacher-certification",
+    "score": 0.92
+  },
+  {
+    "path": "/early-intervention-for-infants-and-toddlers-with-developmental-delays",
+    "score": 0.93
+  },
+  {
+    "path": "/engagement-opportunities",
+    "score": 0.95
+  },
+  {
+    "path": "/events/eclc-town-hall",
+    "score": 0.95
+  },
+  {
+    "path": "/events/event-three-draft",
+    "score": 0.94
+  },
+  {
+    "path": "/events/event-two-draft",
+    "score": 0.94
+  },
+  {
+    "path": "/events/the-colorado-child-abuse-prevention-trust-fund-board-meeting-2",
+    "score": 0.95
+  },
+  {
+    "path": "/events/the-colorado-strengthening-families-network-0",
+    "score": 0.95
+  },
+  {
+    "path": "/expanding-quality-in-infant-toddler-initiative",
+    "score": 0.93
+  },
+  {
+    "path": "/family-support-programs",
+    "score": 0.93
+  },
+  {
+    "path": "/federal-stimulus-funding",
+    "score": 0.93
+  },
+  {
+    "path": "/feedback-form",
+    "score": 0.93
+  },
+  {
+    "path": "/find-child-care",
+    "score": 0.93
+  },
+  {
+    "path": "/for-partners/colorado-early-childhood-family-engagement-framework",
+    "score": 0.93
+  },
+  {
+    "path": "/for-partners/other-grants",
+    "score": 0.91
+  },
+  {
+    "path": "/for-partners/preschool-development-grant-birth-five",
+    "score": 0.91
+  },
+  {
+    "path": "/for-partners/rulemaking-rules-advisory-council",
+    "score": 0.86
+  },
+  {
+    "path": "/grantees-and-vendors",
+    "score": 0.93
+  },
+  {
+    "path": "/head-start/early-head-start",
+    "score": 0.9
+  },
+  {
+    "path": "/health-and-safety-requirements",
+    "score": 0.9
+  },
+  {
+    "path": "/hike",
+    "score": 0.93
+  },
+  {
+    "path": "/home",
+    "score": 0.87
+  },
+  {
+    "path": "/internal-page-draft",
+    "score": 0.93
+  },
+  {
+    "path": "/landing-page-draft",
+    "score": 0.85
+  },
+  {
+    "path": "/large-center-director-qualification-verification",
+    "score": 0.91
+  },
+  {
+    "path": "/learning-and-development-guidelines",
+    "score": 0.9
+  },
+  {
+    "path": "/legal-exemption-from-child-care-licensing",
+    "score": 0.91
+  },
+  {
+    "path": "/news-article/department-of-early-childhood-launches-in-colorado",
+    "score": 0.96
+  },
+  {
+    "path": "/news-article/dr-lisa-roy-featured-in-chalkbeat",
+    "score": 0.96
+  },
+  {
+    "path": "/news-article/lisa-roy-set-to-lead-newly-created-colorado-department-of-early-childhood-i-bring",
+    "score": 0.96
+  },
+  {
+    "path": "/node/10000",
+    "score": 0.91
+  },
+  {
+    "path": "/node/10002",
+    "score": 0.91
+  },
+  {
+    "path": "/node/10003",
+    "score": 0.9
+  },
+  {
+    "path": "/node/10004",
+    "score": 0.83
+  },
+  {
+    "path": "/other-assistance-programs",
+    "score": 0.9
+  },
+  {
+    "path": "/preescolar-universal-upk-colorado",
+    "score": 0.89
+  },
+  {
+    "path": "/press-release/colorado-department-of-early-childhood-begins-supporting-children-families-and-0",
+    "score": 0.96
+  },
+  {
+    "path": "/press-release/colorado-department-of-early-childhood-cdec-appoints-dawn-odean-to-lead-the-colorado",
+    "score": 0.96
+  },
+  {
+    "path": "/press-release/colorado-selected-by-early-childhood-developmental-health-systems-ecdhs-evidence-to",
+    "score": 0.96
+  },
+  {
+    "path": "/press-release/nearly-27500-families-accepted-matches-in-first-two-rounds-of-universal-preschool",
+    "score": 0.95
+  },
+  {
+    "path": "/press-release/updates-on-colorados-universal-preschool-program-deadline-to-sign-up-for-first-round",
+    "score": 0.96
+  },
+  {
+    "path": "/professional-certifications",
+    "score": 0.91
+  },
+  {
+    "path": "/programs-to-support-families",
+    "score": 0.9
+  },
+  {
+    "path": "/public-notice-information",
+    "score": 0.9
+  },
+  {
+    "path": "/quality-initiatives",
+    "score": 0.9
+  },
+  {
+    "path": "/reports-and-data",
+    "score": 0.9
+  },
+  {
+    "path": "/resources/cdec-memo-series",
+    "score": 0.9
+  },
+  {
+    "path": "/resources/funding-opportunities",
+    "score": 0.93
+  },
+  {
+    "path": "/resources/gocase-mobile-app-privacy-statement",
+    "score": 0.95
+  },
+  {
+    "path": "/resources/policy-legislation",
+    "score": 0.93
+  },
+  {
+    "path": "/rules-and-regulations",
+    "score": 0.93
+  },
+  {
+    "path": "/safecare-colorado",
+    "score": 0.91
+  },
+  {
+    "path": "/senate-bill-19-063",
+    "score": 0.9
+  },
+  {
+    "path": "/state-plans",
+    "score": 0.92
+  },
+  {
+    "path": "/strengthening-colorado-families-and-communities",
+    "score": 0.93
+  },
+  {
+    "path": "/stringency-appeals-and-waiver-requests",
+    "score": 0.93
+  },
+  {
+    "path": "/support-resources-and-guides",
+    "score": 0.93
+  },
+  {
+    "path": "/supporting-social-emotional-development",
+    "score": 0.91
+  },
+  {
+    "path": "/telehealth-teleconsultation-and-virtual-coaching",
+    "score": 0.9
+  },
+  {
+    "path": "/training",
+    "score": 0.9
+  },
+  {
+    "path": "/transition-reports",
+    "score": 0.93
+  },
+  {
+    "path": "/universal-preschool-and-special-education",
+    "score": 0.89
+  },
+  {
+    "path": "/universal-preschool-colorado",
+    "score": 0.89
+  },
+  {
+    "path": "/universal-preschool-colorado-frequently-asked-questions",
+    "score": 0.93
+  },
+  {
+    "path": "/universal-preschool-family-information",
+    "score": 0.89
+  },
+  {
+    "path": "/universal-preschool-faqs",
+    "score": 0.93
+  },
+  {
+    "path": "/universal-preschool-find-my-lco",
+    "score": 0.89
+  },
+  {
+    "path": "/universal-preschool-provider-information",
+    "score": 0.89
+  },
+  {
+    "path": "/universal-preschool-qualifying-factors",
+    "score": 0.89
+  },
+  {
+    "path": "/upk-colorado-y-educacion-especial",
+    "score": 0.89
+  },
+  {
+    "path": "/upk-community-provider-town-halls",
+    "score": 0.93
+  }
+]
