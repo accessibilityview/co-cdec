@@ -1,0 +1,170 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-118-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,1,B,0,A,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN",
+            "selector": "span > span > span > span",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 37,
+              "left": 641,
+              "right": 754,
+              "width": 112,
+              "height": 17
+            },
+            "snippet": "<span style=\"text-decoration-skip-ink:none\">",
+            "nodeLabel": "family application",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #1155cc, background color: #8fc6e8, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-122-SECTION",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div.region > section#block-views-block-alert-bar-block-1",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 56,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 56
+                  },
+                  "snippet": "<section class=\"views-element-container block block-views block-views-blockalert-bar-block…\" id=\"block-views-block-alert-bar-block-1\">",
+                  "nodeLabel": "The Universal Preschool (UPK) Colorado family application portal is open! Get m…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-123-SPAN",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,3,A,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN",
+            "selector": "span > span > span > span",
+            "boundingRect": {
+              "top": 21,
+              "bottom": 37,
+              "left": 947,
+              "right": 976,
+              "width": 29,
+              "height": 17
+            },
+            "snippet": "<span style=\"text-decoration-skip-ink:none\">",
+            "nodeLabel": "here",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #1155cc, background color: #8fc6e8, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-122-SECTION",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,SECTION",
+                  "selector": "div.site-wrapper > div.dialog-off-canvas-main-canvas > div.region > section#block-views-block-alert-bar-block-1",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 56,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 56
+                  },
+                  "snippet": "<section class=\"views-element-container block block-views block-views-blockalert-bar-block…\" id=\"block-views-block-alert-bar-block-1\">",
+                  "nodeLabel": "The Universal Preschool (UPK) Colorado family application portal is open! Get m…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-124-H3",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.paragraph__card > div.paragraph__column > div.paragraph__title > h3.mt-0",
+            "boundingRect": {
+              "top": 1011,
+              "bottom": 1057,
+              "left": 15,
+              "right": 440,
+              "width": 425,
+              "height": 46
+            },
+            "snippet": "<h3 class=\"mt-0 mb-0\">",
+            "nodeLabel": "Colorado Department of Early Childhood",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
